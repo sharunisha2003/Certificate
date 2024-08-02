@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mark Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            
+       
+                <h4>Sr.No.<span id="zero">0000000</span></h4>
+                <div class="d1">
+            <img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/googleQRcodes.png?itok=cVevzFXs">
+        </div>
+            <img src="https://png.pngtree.com/png-vector/20230306/ourmid/pngtree-scool-college-logo-victor-vector-png-image_6634445.png" alt="College Logo" class="logo">
+            <h1><span class="curved-word">All India Institute of Fire Technology and Safety Management</span></h1>
+            <p>Associated with Technical and Paramedical Education Council</p>
+            <p>An Autonomous Institution Recognized by Government of India</p>
+        </div>
+        <h2>Annual Statement of Marks</h2>
+        <div class="details">
+            <div class="row">
+                <div class="col">
+                    <p><strong>Name of the Candidate:</strong> <input type="text" id="candidateName" placeholder="Candidate’s Name"></p>
+                </div>
+                <div class="col">
+                    <p><strong>Course name with Code:</strong> Diploma in Fire & Safety Management (DFS012)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><strong>Reg. No.:</strong> <input type="text" id="regNo" placeholder="Registration Number"></p>
+                </div>
+                <div class="col">
+                    <p><strong>Enrollment No.:</strong> <input type="text" id="enrollmentNo" placeholder="Enrollment Number"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><strong>Authorised Training Centre Name with Code:</strong> 
+                    <input type="text" id="trainingCentreName" placeholder="Training Centre Name"> </p>
+                    <input type="text" id="trainingCentreCode" placeholder="Code">
+                </div>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                    <th>Max. Marks</th>
+                    <th>Marks Obtained</th>
+                    <th>Total in Words</th>
+                </tr>
+            </thead>
+            <tbody id="marksTableBody">
+                <!-- JavaScript will populate this section -->
+            </tbody>
+        </table>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <p><strong>Grand Total:</strong> <span id="grandTotal">0</span></p>
+                </div>
+                <div class="col">
+                    <p><strong>In Words:</strong> <span id="totalInWords">Zero Zero</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p><strong>Month and Year of Examination:</strong> May 2020</p>
+                </div>
+                <div class="col">
+                    <p><strong>No. of Subject Offered:</strong> T5+P3=8</p>
+                </div>
+                <div class="col">
+                    <p><strong>Result:</strong> <span id="result">PASS</span></p>
+                </div>
+                <div class="col">
+                    <p><strong>Percentage:</strong> <span id="percentage">0.00%</span></p>
+                </div>
+                <div class="col">
+                    <p><strong>Grade:</strong> <span id="grade">F</span></p>
+                </div>
+            </div>
+            <p><strong>Date:</strong> <span id="date">June 15, 2020</span></p>
+            <p><strong>Signature of Deputy Controller of Examination</strong></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZwsEQi9y69L68OtFXFK-A6LxcHcn05SqUir4JcSTaDFRHFmfTEIwKBz0jN5LiFzfs-ag&usqp=CAU");
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header .logo {
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.container h4{
+    position: absolute;
+}
+#zero{
+    color: red;
+}
+.d1{
+    width:50px;
+    height:50px;
+    display: flex;
+    
+}
+.d1 img{
+    position: absolute;
+  top: 8px;
+  right: 16px;
+  width:50px;
+  height:50px;
+}
